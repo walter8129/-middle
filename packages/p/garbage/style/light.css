@@ -264,6 +264,19 @@ p {
     border-radius: 10px;
     font-size: medium;
 }
+#beta-badge {
+    background-color: #22282d;
+    margin-top: -27.5px;
+    margin-left: 160px;
+    width: 80px;
+    height: 23px;
+    color: #549c5a;
+    text-align: center;
+    border: 1px solid #549c5a;
+    border-radius: 10px;
+    font-size: medium;
+}
+
 #title-textial-class-gfang:hover > #verified-hover-p {
     transition: 1s;
     opacity: 1;

@@ -209,8 +209,8 @@ a {
     color: inherit;
 }
 
-#feed-class-object-important-with {
-    height: fit-content;
+#interests-class {
+    height: 60px;
     width: 96%;
     background-color: #ffffff;
     border: 1px solid var(--color-fg-default, #cbd7e0);
@@ -223,6 +223,35 @@ a {
     padding-bottom: 15px;
 }
 
+#feed-class-object-important-with {
+    height: fit-content;
+    width: 96%;
+    background-color: var(--yellow-light, hsl(47,83%,91%));
+    border: 1px solid var(--color-fg-default, var(--yellow-border, hsl(47, 100%, 64%)));
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 17.5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: medium;
+    color: #0e0e0e;
+}
+
+#package-widget {
+    height: 180px;
+    width: 150px;
+    background-color: #ffffff;
+    border: 1px solid var(--color-fg-default, #cbd7e0);
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 17.5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: medium;
+    color: #0e0e0e;
+    position: absolute;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: small;
@@ -231,6 +260,11 @@ p {
 
 .shrink-size-norms {
     width: 600px;
+}
+
+.shrink-size-norms-v {
+    width: 120px;
+    font-size: 11px;
 }
 
 #codeblock-light {
@@ -254,13 +288,25 @@ p {
 
 #verified-badge {
     background-color: #f5f7f9;
-    margin-top: -26.5px;
-    margin-left: 70px;
-    width: 80px;
-    height: 23px;
+    margin-top: -21px;
+    margin-left: 60px;
+    width: 50px;
+    height: 15px;
     color: #3d87bf;
     text-align: center;
     border: 1px solid #3d87bf;
+    border-radius: 10px;
+    font-size: x-small;
+}
+#conditioned-badge {
+    background-color: #f5f7f9;
+    margin-top: -25px;
+    margin-left: 200px;
+    width: 70px;
+    height: 23px;
+    color: #b03e3e;
+    text-align: center;
+    border: 1px solid #b03e3e;
     border-radius: 10px;
     font-size: medium;
 }
@@ -286,4 +332,23 @@ p {
     transition: 1s;
     opacity: 0;
     margin-top: -15px;
+}
+
+#tag-object-considerably-listed {
+    height: 20px;
+    width: fit-content;
+    background-color: #ffffff;
+    border: 1px solid var(--color-fg-default, #cbd7e0);
+    border-radius: 10px;
+    opacity: 0.9;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    position: absolute;
+}
+
+#set-bottom {
+    
 }
