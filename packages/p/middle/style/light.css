@@ -49,7 +49,7 @@ li {
 
 #sidebar-main-container-all {
     height: 100%;
-    width: fit-content;
+    width: 400px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -154,13 +154,14 @@ button:hover {
     height: 200px;
     z-index: 2;
     padding: 10px;
-    margin-top: 610px;
+    margin-top: 710px;
     margin-left: 405px;
     position: absolute;
 }
 #title-textial-class-gfang {
     opacity: 0.9;
     font-size: large;
+    z-index: 6;
 }
 
 #res4-textial-class-gfang {
@@ -218,8 +219,8 @@ a {
     padding-left: 20px;
     font-size: 17.5px;
     padding-top: 15px;
-    padding-bottom: 15px;
     font-size: medium;
+    padding-bottom: 15px;
 }
 
 p {
@@ -229,5 +230,47 @@ p {
 }
 
 .shrink-size-norms {
-    width: 400px;
+    width: 600px;
+}
+
+#codeblock-light {
+    height: fit-content;
+    width: 96%;
+    background-color: #ffffff;
+    border: 1px solid var(--color-fg-default, #cbd7e0);
+    border-radius: 5px;
+    opacity: 0.9;
+    padding-left: 7.5px;
+    padding-top: 4px;
+    font-size: small;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 4px;
+}
+
+#code-parry-title {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: xx-small;
+}
+
+#verified-badge {
+    background-color: #f5f7f9;
+    margin-top: -26.5px;
+    margin-left: 70px;
+    width: 80px;
+    height: 23px;
+    color: #3d87bf;
+    text-align: center;
+    border: 1px solid #3d87bf;
+    border-radius: 10px;
+    font-size: medium;
+}
+#title-textial-class-gfang:hover > #verified-hover-p {
+    transition: 1s;
+    opacity: 1;
+    margin-top: 0px;
+}
+#verified-hover-p {
+    transition: 1s;
+    opacity: 0;
+    margin-top: -15px;
 }

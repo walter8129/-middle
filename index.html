@@ -9,11 +9,176 @@
     <link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
     <link rel="manifest" href="imgs/site.webmanifest">
-    <title>Welcome • Walter8129</title>
+    <title>Welcome • Pixel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class='c1'>
-        welcome to walter8129
+    <div id='topb-m'>
+        <a href='https://www.walter8129.co.uk'>
+            <img src='imgs/pixel-large-icon-svg.svg' id='img-small-gfang' class='hoverable-contents-topb-m-gfang' />
+        </a>
+        <div id='toph-m-text-contents-selectable'>
+            <ul>
+                <li><div id='topb-m-gfang-class-lister-group' class='hoverable-contents-topb-m-gfang'>
+                    <div style='margin-left: 70px'>
+                        <a href='https://walter8129.co.uk'>Packages</a>
+                    </div>
+                </div></li>
+                <li><div id='topb-m-gfang-class-lister-group' class='hoverable-contents-topb-m-gfang'>
+                    <div style='margin-left: 10px'>
+                        <a href='https://walter8129.co.uk'>Codespaces</a>
+                    </div>
+                </div></li>
+                <li><div id='topb-m-gfang-class-lister-group' class='hoverable-contents-topb-m-gfang'>
+                    <div style='margin-left: 10px'>
+                        <a href='https://walter8129.co.uk'>Helpers</a>
+                    </div>
+                </div></li>
+            </ul>
+        </div> 
+    </div>
+    <div id='sidebar-main-container-all'>
+        <div id='padding-affixture-leave-sides'>
+            <div id='padding-create-centre-space'>
+                Find Code
+            </div>
+            <script>
+                var input = document.getElementsByClassName('--search-bar-reg')
+                setTimeout(function() {
+                    input[0].placeholder = ''
+                    var placeholders = [
+                        'Search Packages',
+                        'Search Codespaces',
+                        'Search Commissions',
+                        'Search Libraries'
+                    ]
+                    var accurrentText = 'Search Packages'
+                    var progressiveText = ''
+                    var cIndex = 0
+                    var i = 0
+                    function typewrite() {
+                        if (i < accurrentText.length) {
+                            progressiveText += accurrentText.charAt(i);
+                            i++;
+                            input[0].placeholder = progressiveText
+                            setTimeout(typewrite, 100);
+                        } else {
+                            cIndex++
+                            if (cIndex >= placeholders.length) {
+                                cIndex = 0
+                            }
+                            i = 0
+                            accurrentText = placeholders[cIndex]
+                            progressiveText = ''
+                            setTimeout(typewrite, 500)
+                        }
+                    }  
+
+                    typewrite()
+                }, 300)
+            </script>
+            <div id='padding-create-break-small-var'>
+                <input class='--search-bar-reg' type='text'>
+                </input>
+            </div>
+            <script>
+                var availableSourceFiles = {
+                    'middle': 'https://walter8129.co.uk/packages/p/middle',
+                    'walter8129/middle': 'https://walter8129.co.uk/packages/p/middle'
+                }
+                document.getElementsByClassName('--search-bar-reg')[0].onkeypress = function(e) {
+                    if (!e) e = window.event;
+                        var keyCode = e.code || e.key;
+                        if (keyCode == 'Enter'){
+                            if (availableSourceFiles[document.getElementsByClassName('--search-bar-reg')[0].value.toLowerCase()]) {
+                                window.location = availableSourceFiles[document.getElementsByClassName('--search-bar-reg')[0].value.toLowerCase()]
+                            } else {
+                                document.getElementsByClassName('--changing-as-no-search')[0].innerHTML = 'No results for <b>' + document.getElementsByClassName('--search-bar-reg')[0].value + '</b>, check the spelling and try again.'
+                            }
+                            return false;
+                        }
+                }
+            </script>
+        </div>
+    </div>
+    <div id='centre-opening-boxing-boundaries'>
+        <div id='title-textial-class-gfang'>
+            ¯\_(ツ)_/¯
+            <hr />
+        </div>
+        <div id='res1-textial-class-gfang'>
+            <div class='--changing-as-no-search'>
+                Try searching something, maybe <b>walter8129/Middle</b>, maybe <b>Garbage</b>?
+            </div>
+            <script>
+                var randomSuggestions = [
+                    '<b>walter8129/Middle</b>',
+                    '<b>Garbage</b>',
+                    '<b>walter8129/Middle</b>, maybe <b>Garbage</b>',
+                    '<b>Portfolio</b>',
+                    '<b>Walter Portfolio</b>'
+                ]
+                
+                document.getElementsByClassName('--changing-as-no-search')[0].innerHTML = 'Trying searching something, maybe ' + randomSuggestions[Math.floor(Math.random() * randomSuggestions.length)]
+            </script>
+        </div>
+    </div>
+    <div id='subsidarial-detail-boxing-boundaries'>
+        <div id='res4-textial-class-gfang'>
+            <ul>
+                <li>
+                    <object data='imgs/pixel-img-png-small.svg' type='image/svg+xml' id='img-pre-textial-object-small'>
+                    </object>
+                </li>
+                <li class='lister-gfang-m-h-partial-split-centre_node-asbreak'>|</li>
+                <li class='lister-gfang-m-h-partial-split-centre_node'>
+                    © 2023, walter8129<br />© 2023, Pixel
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id='sidebar-right-far-boundaries'>
+        <div id='title-textial-class-gfang'>
+            Feed
+            <hr />
+        </div>
+        <div id='feed-class-object-important-with'>
+            Getting Started with Pixel
+            <p class='shrink-size-norms'>
+                Pixel by walter8129 is an open-source code website acting as the portfolio for walter8129 and also an open-source website for finding awesome packages for your game!
+            </p>
+            <button id='button-grad'>
+                See Portfolio
+            </button>
+        </div>
+        <br />
+        <div id='feed-class-object-important-with'>
+            Finding The Perfect Package
+            <p class='shrink-size-norms'>
+                Developed by walter8129 and contributors, finding the perfect package shouldn't be hard ranging from source-management packages to garbage collectors!
+            </p>
+            <button id='button-grad'>
+                Find Packages
+            </button>
+        </div>
+        <br />
+        <div id='feed-class-object-important-with'>
+            Upload your own
+            <p class='shrink-size-norms'>
+                This feature will be available shortly, check back soon for a big shiny button for your turn!
+            </p>
+        </div>
     </div>
 </body>
 </html>
