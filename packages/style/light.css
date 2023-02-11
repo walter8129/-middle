@@ -349,6 +349,7 @@ p {
     position: absolute;
 }
 
-#set-bottom {
-    
+#set-bottom-continue-set-padding-inwards-left {
+    opacity: 1;
+    margin-right: 10px;
 }
